@@ -9,7 +9,7 @@ public class PaymentManager {
 
     public void pay() {
         // make the payment the notify the listeners
-        paymentListeners.forEach(PaymentListener::paymentReceived);
+        paymentListeners.forEach(p -> p.paymentReceived(new PaymentEvent()));
     }
 
     public void registerPaymentListener(PaymentListener p) {

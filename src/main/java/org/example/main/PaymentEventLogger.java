@@ -11,7 +11,7 @@ public class PaymentEventLogger implements PaymentListener{
     }
 
     @Override
-    public void paymentReceived() {
+    public void paymentReceived(PaymentEvent e) {
         logEvent();
     }
     private void logEvent() {

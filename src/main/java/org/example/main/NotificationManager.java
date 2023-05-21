@@ -3,7 +3,7 @@ package org.example.main;
 public class NotificationManager implements PaymentListener {
 
     @Override
-    public void paymentReceived() {
+    public void paymentReceived(PaymentEvent e) {
         sendNotification();
     }
 
