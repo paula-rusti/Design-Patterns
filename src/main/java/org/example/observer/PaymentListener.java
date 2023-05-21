@@ -1,4 +1,4 @@
-package org.example.main;
+package org.example.observer;
 
 public interface PaymentListener {
     // a contract implemented by anyone observing the payments

@@ -1,4 +1,4 @@
-package org.example.main;
+package org.example.observer;
 
 import java.util.ArrayList;
 import java.util.List;

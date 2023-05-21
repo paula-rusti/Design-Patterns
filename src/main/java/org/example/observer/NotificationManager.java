@@ -1,4 +1,4 @@
-package org.example.main;
+package org.example.observer;
 
 public class NotificationManager implements PaymentListener {
 

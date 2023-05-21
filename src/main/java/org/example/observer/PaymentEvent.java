@@ -1,4 +1,4 @@
-package org.example.main;
+package org.example.observer;
 
 // will become part of the contract
 public class PaymentEvent {
