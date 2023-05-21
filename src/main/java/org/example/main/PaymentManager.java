@@ -6,8 +6,6 @@ import java.util.List;
 public class PaymentManager {
 
     private final List<PaymentListener> paymentListeners = new ArrayList<>();
-    private final PaymentEventLogger paymentEventLogger = new PaymentEventLogger();
-    private final NotificationManager notificationManager = new NotificationManager();
 
     public void pay() {
         // make the payment the notify the listeners
