@@ -6,4 +6,4 @@
 - Decorator
 - Singleton
 - Factory
-- Decorator
+
