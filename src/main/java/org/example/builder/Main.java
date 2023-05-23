@@ -11,5 +11,12 @@ public class Main {
             .color("Red")
             .build();
         System.out.println(product);
+
+        User u = User.builder()
+            .id(1)
+            .lastName("Last Name")
+            .firstName("First Name")
+            .age(20)
+            .build();
     }
 }
