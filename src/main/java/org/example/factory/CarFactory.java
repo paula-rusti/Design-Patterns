@@ -1,6 +1,6 @@
-package org.example.factorymethod;
+package org.example.factory;
 
-public class CarFactory {
+public class CarFactory{
 
     public static Vehicle create(CarType carType) {
         return switch (carType) {

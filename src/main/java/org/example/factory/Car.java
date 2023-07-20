@@ -1,4 +1,4 @@
-package org.example.factorymethod;
+package org.example.factory;
 
 public abstract class Car implements Vehicle{
 }
